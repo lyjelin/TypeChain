@@ -7,6 +7,7 @@
     "author": "Lee Yoon Jeong <yoonjeongelin16@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "start",
+        "start": "node index.js",
+        "prestart": "tsc"
     }
 }
