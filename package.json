@@ -1,0 +1,12 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learning Typescript by making a Blockchain with it",
+    "main": "index.js",
+    "respiratory": "",
+    "author": "Lee Yoon Jeong <yoonjeongelin16@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "start",
+    }
+}
