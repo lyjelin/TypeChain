@@ -63,7 +63,9 @@ const crerateNewBlock = (data:string) : Block => {
         previousBlock.hash,
         data,
         newTimeStamp
-    ); return newBlock;
+    ); 
+    addBlock(newBlock);
+    return newBlock;
 };
 
 const getHashforBlock = (aBlock: Block) : string => 
@@ -95,7 +97,11 @@ const addBlock = (candidateBlock: Block) : void => {
 };
 
 
+crerateNewBlock("second block");
+crerateNewBlock("third block");
+crerateNewBlock("foutrh block");
 
+console.log(blockchain);
 
 
 
